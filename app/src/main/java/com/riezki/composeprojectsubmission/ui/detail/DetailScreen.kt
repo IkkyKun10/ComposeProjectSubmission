@@ -16,6 +16,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Alignment.Companion.CenterVertically
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.layout.ContentScale
@@ -102,6 +103,20 @@ fun DetailHeader(
 
             Box(
                 modifier = modifier
+                    .fillMaxSize()
+                    .background(
+                        Brush.verticalGradient(
+                            listOf(
+                                Color.Black,
+                                Color.Black,
+                            ),
+                            startY = 400f
+                        )
+                    )
+            )
+
+            Box(
+                modifier = modifier
                     .statusBarsPadding()
                     .fillMaxWidth()
             ) {
@@ -110,20 +125,18 @@ fun DetailHeader(
                     imageVector = Icons.Default.ArrowBack,
                     modifier = Modifier
                         .align(Alignment.TopStart)
-                        .padding(16.dp)
-                        .clickable { onBackClick() }
-                ) {
-                    //navController.popBackStack()
-                }
+                        .padding(16.dp),
+                    clickListener = onBackClick
+                )
 
-                TopButton(
-                    imageVector = Icons.Default.FavoriteBorder,
-                    modifier = Modifier
-                        .align(Alignment.TopEnd)
-                        .padding(16.dp)
-                ) {
-
-                }
+//                TopButton(
+//                    imageVector = Icons.Default.FavoriteBorder,
+//                    modifier = Modifier
+//                        .align(Alignment.TopEnd)
+//                        .padding(16.dp)
+//                ) {
+//
+//                }
 
             }
 

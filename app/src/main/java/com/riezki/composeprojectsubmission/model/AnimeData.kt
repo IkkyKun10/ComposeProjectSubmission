@@ -22,7 +22,7 @@ object AnimeData {
             overview = "Spy x Family menjadi salah satu anime terbaru di tahun 2022 ini yang tak boleh kalian lewatkan. Bahkan kabarnya banyak penggemar anime action comedy yang menunggu kehadiran anime Spy x Family.",
             img = R.drawable.anime_2,
             date = "April 2022",
-            genre = "action comedy",
+            genre = "action,comedy",
             desc = "Untuk melancarkan aksinya, Twilight mengadopsi anak yatim piatu bernama Anya yang nantinya akan diberikan nama Anya Forger. Di sisi lain ternyata Anya memiliki kecerdasan di atas rata-rata bahkan bisa membaca kata hati orang lain. Selain Anya, Loid juga meminta bantuan dari Yor Briar yang berperan sebagai ibu angkat dari Anya Forger. Dibalik kecantikan dan kelembutan Yor Forger, siapa sangka ternyata dirinya merupakan pembunuh bayaran berhati dingin.\n" +
                     "\n" +
                     "Cukup menarik sekali dari ketiga pemeran utama dalam anime Spy x Family. Karena hanya Anya yang tahu latar belakang dari kedua orang tua angkatnya. Lalu untuk misi yang dijalankan oleh Loid Forger bersama keluarganya adalah menyusup ke sebuah sekolah elit untuk menyelidiki target dan Anya akan dijadikan sebagai calon siswa sekolah tersebut agar semua misi Loid bisa berjalan dengan lancar.\n" +
@@ -37,7 +37,7 @@ object AnimeData {
             overview = "Rekomendasi anime baru di tahun 2022 berikutnya adalah anime Spriggan. Anime Spriggan sendiri telah dirilis pada bulan Juni 2022 oleh Netflix dengan jumlah total episodenya adalah 6 episode. Anime Spriggan mengadopsi gense petualangan, fantasi dan sci-fi.",
             img = R.drawable.anime_3,
             date = "Juni 2022 ",
-            genre = "petualangan, fantasi dan sci-fi." ,
+            genre = "petualangan",
             desc = "Dikisahkan tentang sebuah organisasi rahasia bernama ARCAM yang telah menguasai Pegunungan Ararat Turki. Di sana mereka berhasil menemukan sebuah benda yang diyakini merupakan Bahtera Nuh.\n" +
                     "\n" +
                     "Akan tetapi dalam perjalanan perjuangan yang telah dilakukan, ARCAM juga harus melawan Korps Mesin Amerika Serikat. Dimana organisasi tersebut terkenal jahat serta ingin mengambil alih Bahtera Nuh untuk bisa menguasai dunia.\n" +
@@ -80,7 +80,7 @@ object AnimeData {
             overview = "Akebi-Chan no Sailor-fuku adalah sebuah anime yang menceritakan tentang Akebi Komichi seorang yang memiliki mimpi memakai seragam sailor ketika berada di sekolah. Hal tersebut bukanlah tanpa alasan, hal ini karena Akebi Komichi memiliki obsesi untuk bisa masuk ke Roubai Academy.",
             img = R.drawable.anime_6,
             date = "Januari 2022 ",
-            genre = "Sclice of life",
+            genre = "Sclice life",
             desc = "Sudah sejak kecil Komichi Akebi selalu mendambakan seragam sailor, bahkan dirinya pernah meminta ibunya untuk menjahit seragam jika berhasil masuk ke almamater ibunya yaitu Akademi Roubai.\n" +
                     "\n" +
                     "Ketika ia berhasil masuk akademi tersebut, ternyata sekolah menengah sudah tidak lagi mengenakan seragam pelaut sebagai aturan berpakaiannya. Walaupun begitu Akebi Komichi diberikan ijin untuk mengenakan seragam sailor sesuai mimpinya.\n" +
@@ -108,7 +108,7 @@ object AnimeData {
             overview = "Setelah peristiwa Made in Abyss Movie 3: Dawn of the Deep Soul, lanjutan seri kelima Made in Abyss: Retsuhitsu ni Ougankyou yang mencakup petualangan dari Reg, Riko, dan Nanachi pada lapisan keenam yaitu The Capital of the Unreturned.",
             img = R.drawable.anime_8,
             date = "Juli 2022",
-            genre = "adventure, drama, fantasy, misteri, dan sci-fi",
+            genre = "adventure",
             desc = "Grafik yang ditawarkan oleh Made in Abyss: Retsuhitsu ni Ougankyou tentunya tak akan membuat kalian bosan ketika menyaksikannya. Bahkan cerita yang ditawarkan oleh anime ini tampak begitu bagus dan cocok banget buat kalian yang suka dengan anime petualangan.\n" +
                     "\n" +
                     "Made in Abyss: Retsuhitsu ni Ougankyou mengadopsi genre adventure, drama, fantasy, misteri, dan sci-fi. Lalu anime ini akan rilis pada tanggal 6 Juli 2022 dengan jumlah total episode sebanyak 12 episode.",
@@ -121,7 +121,7 @@ object AnimeData {
             overview = "Tak hanya Classroom of the Elite 2nd Season yang akan tayang saja. Namun seri ketiga dari anime Classroom of the Elite juga sudah terkonfirmasi akan tayang.",
             img = R.drawable.anime_9,
             date = "Oktober 2022",
-            genre = "School, Psychological",
+            genre = "Psychological",
             desc = "Anime Classroom of the Elite 2nd Season menceritakan tentang Ayanokoji, seorang siswa dengan kecerdasan begitu luar biasa namun ia juga lebih suka menjaga jarak dengan siswa lainnya. Anyanokoji adalah seorang siswa kelas D, dimana kelas tersebut adalah kumpulan siswa bengal berkumpul.",
             rating = "PG-13",
             studio = "Unknown",
@@ -132,7 +132,7 @@ object AnimeData {
             overview = "Isekai Meikyuu de Harem wo adalah anime dengan genre action, adventure, fantasy, romance, dan ecchi yang akan tayang pada bulan Juli 2022 ini.",
             img = R.drawable.anime_10,
             date = "Juli 2022",
-            genre = "action, adventure, fantasy, romance, dan ecchi",
+            genre = "action, adventure",
             desc = "Isekai Meikyuu de Harem wo menceritakan tentang Michio Kaga, seorang siswa sekolah menengah atas yang kerap menjelajah internet dan suka masuk ke dalam situs web aneh. Bahkan ia menemukan situs aneh yang begitu misterius serta memberikan sejumlah pertanyaan yang akan memberikan pengaruh terhadap kemampuan karakter digital.\n" +
                     "\n" +
                     "Ketika menyelesaikan setiap pertanyaan untuk karakternya, Michio Kaga malah berpindah ke dunia fantasi seperti game dan terlahir kembali menjadi seorang pria kuat dan dapat mengklaim gadis setingkat idola.",
@@ -145,7 +145,7 @@ object AnimeData {
             overview = "Mamahaha no Tsurego ga Motokano data adalah sebuah anime yang menceritakan tentang Mizuto Irido dan Yume Ayai yang bertemu secara tak terduga. Setelah putus hubungan, mereka akhirnya bisa bertemu kembali namun dengan status yang berbeda.",
             img = R.drawable.anime_11,
             date = "Juli 2022",
-            genre = "comedy dan romance",
+            genre = "romance",
             desc = "Mamahaha no Tsurego ga Motokano data adalah sebuah anime yang menceritakan tentang Mizuto Irido dan Yume Ayai yang bertemu secara tak terduga. Setelah putus hubungan, mereka akhirnya bisa bertemu kembali namun dengan status yang berbeda.\n" +
                     "\n" +
                     "Lantas bagaimana kehidupan mereka sebagai seorang ibu dan anak angkat dengan memori hubungan di masa lalunya? Saksikan seluruh cerita lengkapnya hanya di anime Mamahaha no Tsurego ga Motokano data.\n" +
@@ -160,7 +160,7 @@ object AnimeData {
             overview = "Secara tiba-tiba Ayumu Tanakan seorang siswa tahun pertama memutuskan keluar dari klub kendo dan bergabung dengan klub Shogi yang tidak resmi. Urushi Yaotome seorang presiden dan ahli Shogi begitu senang karena memiliki pasangan bermain.",
             img = R.drawable.anime_12,
             date = "Juli 2022",
-            genre = "comedy dan slice of life",
+            genre = "comedy",
             desc = "Secara tiba-tiba Ayumu Tanakan seorang siswa tahun pertama memutuskan keluar dari klub kendo dan bergabung dengan klub Shogi yang tidak resmi. Urushi Yaotome seorang presiden dan ahli Shogi begitu senang karena memiliki pasangan bermain.\n" +
                     "\n" +
                     "Sebagai kakak kelas dari Aymu, Urushi berusaha untuk bisa menjadi seorang metor Shogi serta panutan bagi anggotanya. Akan tetapi karena kebiasaan tersebut, ia kerap merasa malu hingga memerah.; ia dengan polis dan kakunya, Ayumu malah menyebabkan jika Urushi begitu imut.\n" +

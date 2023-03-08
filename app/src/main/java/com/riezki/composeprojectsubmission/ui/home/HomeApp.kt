@@ -12,6 +12,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
+import com.riezki.composeprojectsubmission.ui.about.AboutScreen
 import com.riezki.composeprojectsubmission.ui.detail.DetailScreen
 import com.riezki.composeprojectsubmission.ui.navigation.Screen
 
@@ -26,9 +27,10 @@ fun HomeApp(
 
     Scaffold(
         topBar = {
-            MyTopBarApp {
-                //masih belum diketahui
-                navController.navigate(Screen.About.route)
+            if (currentRoute == Screen.Home.route) {
+                MyTopBarApp {
+                    navController.navigate(Screen.About.route)
+                }
             }
         },
         modifier = modifier
@@ -42,6 +44,10 @@ fun HomeApp(
                 HomeContent(navigateToDetail = { detailId ->
                     navController.navigate(Screen.Detail.createRoute(detailId))
                 })
+            }
+
+            composable(Screen.About.route) {
+                AboutScreen()
             }
 
             composable(
