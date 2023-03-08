@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ComposeProjectSubmission</string>
+    <string name="anime_name_data">Anime Recommendation 2022</string>
+    <string name="image_detail">Image Detail</string>
+</resources>
