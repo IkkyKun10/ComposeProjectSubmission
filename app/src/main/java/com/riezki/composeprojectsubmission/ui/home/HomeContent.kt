@@ -6,7 +6,6 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
@@ -23,12 +22,12 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.lifecycle.viewmodel.compose.viewModel
 import com.riezki.composeprojectsubmission.R
 import com.riezki.composeprojectsubmission.injection.Injection
 import com.riezki.composeprojectsubmission.model.Anime
 import com.riezki.composeprojectsubmission.ui.ViewModelFactory
 import com.riezki.composeprojectsubmission.ui.common.UiState
-import androidx.lifecycle.viewmodel.compose.*
 
 @Composable
 fun HomeContent(
@@ -154,7 +153,7 @@ fun MyTopBarApp(
                     onMenuClick()
                 },
             ) {
-                Icon(imageVector = Icons.Filled.AccountCircle, contentDescription = "About Me")
+                Icon(imageVector = Icons.Filled.AccountCircle, contentDescription = "about_page")
             }
         }
     )

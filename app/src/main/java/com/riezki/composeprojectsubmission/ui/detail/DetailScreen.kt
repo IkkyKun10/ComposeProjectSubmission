@@ -107,10 +107,10 @@ fun DetailHeader(
                     .background(
                         Brush.verticalGradient(
                             listOf(
-                                Color.Black,
-                                Color.Black,
+                                Color.Transparent,
+                                Color.Black
                             ),
-                            startY = 400f
+                            startY = 400f,
                         )
                     )
             )
