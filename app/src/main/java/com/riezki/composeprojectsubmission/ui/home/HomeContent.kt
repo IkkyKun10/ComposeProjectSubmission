@@ -83,15 +83,11 @@ fun ContentList(
 fun ContentCard(
     modifier: Modifier = Modifier,
     data: Anime,
-//    navigateToDetail: (String) -> Unit,
 ) {
     Card(
         modifier = modifier
             .fillMaxSize()
-            .padding(10.dp)
-            /*.clickable {
-                navigateToDetail(data.id.toString())
-            }*/,
+            .padding(10.dp),
         shape = RoundedCornerShape(15.dp),
         elevation = 5.dp,
     ) {

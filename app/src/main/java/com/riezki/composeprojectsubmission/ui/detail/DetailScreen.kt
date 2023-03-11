@@ -39,7 +39,6 @@ import com.riezki.composeprojectsubmission.ui.common.UiState
 @Composable
 fun DetailScreen(
     idDetail: String,
-    //modifier: Modifier = Modifier,
     navigateBack: () -> Unit,
     viewModel: DetailScreenViewModel = viewModel(
         factory = ViewModelFactory(
@@ -67,10 +66,8 @@ fun DetailScreen(
 @Composable
 fun DetailContent(
     animeData: Anime,
-    //modifier: Modifier = Modifier,
     onBackClick: () -> Unit
 ) {
-    //val animeData = AnimeData.listAnime
     LazyColumn {
         item {
             DetailHeader(data = animeData, onBackClick = onBackClick)
@@ -83,7 +80,6 @@ fun DetailContent(
 @Composable
 fun DetailHeader(
     data: Anime,
-    //navController: NavController,
     modifier: Modifier = Modifier,
     onBackClick: () -> Unit,
 ) {
@@ -129,35 +125,11 @@ fun DetailHeader(
                     clickListener = onBackClick
                 )
 
-//                TopButton(
-//                    imageVector = Icons.Default.FavoriteBorder,
-//                    modifier = Modifier
-//                        .align(Alignment.TopEnd)
-//                        .padding(16.dp)
-//                ) {
-//
-//                }
 
             }
 
         }
 
-        /*Box(modifier = Modifier.align(Alignment.BottomCenter)) {
-            Card(
-                backgroundColor = Color.White,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .height(150.dp),
-                elevation = 0.dp,
-                shape = topShape.large
-            ) {
-                Box {
-                    Column {
-                        Text(text = "Nama Anime")
-                    }
-                }
-            }
-        }*/
     }
 }
 
